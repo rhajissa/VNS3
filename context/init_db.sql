@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS container_stats (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    container_identifier VARCHAR(255) NOT NULL,
+    ram_usage DECIMAL(10,2) NOT NULL,
+    cpu_usage DECIMAL(10,2) NOT NULL,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);

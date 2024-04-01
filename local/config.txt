@@ -1,0 +1,4 @@
+imagename=docker-swarm		
+containername=swarm	
+containerpassword=lalelu123
+
